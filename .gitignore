@@ -1,0 +1,6 @@
+/.idea
+/secrets_folder/secret.py
+/venv
+/__pycache__
+/pyproject.toml
+/poetry.lock
