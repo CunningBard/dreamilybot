@@ -86,6 +86,7 @@ class Database:
 
 
 if __name__ == '__main__':
+    print(Fernet.generate_key())
     db = Database("../../dynamic_files/data.txt", b'ETl8CaMqlMOKrFIp1Lzjj5_ZG6KVXRe4PitX8_yBkVo=')
     db.new_user(1)
     db.new_user(2)
