@@ -4,3 +4,5 @@
 """
 api_key = ""
 bot_token = ""
+database_password = b""
+# os.environ.get("api_key") ?
