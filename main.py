@@ -3,7 +3,7 @@ import time
 import discord
 import secrets_folder.secret as sc
 import utilities.util.data as data
-from runner import keep_alive
+# from runner import keep_alive
 from discord.ext import commands
 
 start = time.time()
@@ -100,5 +100,5 @@ for _file in os.listdir("cog"):
     if _file.endswith(".py"):
         bot.load_extension(f"cog.{_file[:-3]}")
 
-keep_alive()
+# keep_alive()
 bot.run(sc.bot_token)

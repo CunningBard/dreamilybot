@@ -1,5 +1,6 @@
 /.idea
 /secrets_folder/secret.py
+/secrets_folder/__pycache__
 /venv
 /__pycache__
 /poetry.lock
